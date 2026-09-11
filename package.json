@@ -1,0 +1,26 @@
+{
+  "name": "Sauce-Demo-Automation-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {"all-tests": "npx playwright test e2e.spec.js",
+  "login-test": "npx playwright test login.spec.js",
+  "dashboard": "npx playwright test dashboard.spec.js",
+  "product": "npx playwright test products.spec.js",
+   "report": "npx playwright show-report"},
+  "keywords": [],
+  "author": "Obinna",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "validator": "^13.15.35"
+  }
+}
