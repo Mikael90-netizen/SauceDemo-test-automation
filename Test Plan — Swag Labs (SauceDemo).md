@@ -102,3 +102,7 @@ By — for full traceability from requirement to execution.
 
 *This test plan should be reviewed and updated at the start of each test
 cycle, particularly if Swag Labs' underlying build changes.*
+
+---
+
+Review it.
