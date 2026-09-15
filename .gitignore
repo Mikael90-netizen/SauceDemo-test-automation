@@ -8,11 +8,7 @@ node_modules/
 /playwright/.auth/
 /test-data/
 # Ignore these project files
-checkoutData.js
-loginData.js
-productData.js
-products.spec.js
-Test Plan — Swag Labs (SauceDemo)
+
 
 
 
